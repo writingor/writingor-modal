@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles/css/writingor-modal.css">
+    <!--/ styles -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Writingor Modal Ecamples</h1>
+        <hr>
+
+        <!-- modal 1 group -->
+        <a href="#modal-1" data-modal>Open Modal 1</a>
+
+        <div id="modal-1" class="writingor--modal">
+            <h2>Modal 1</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Assumenda magni nostrum repudiandae magnam hic quos qui ullam expedita,
+                ut quae corporis inventore natus. Inventore ab culpa obcaecati cum incidunt
+                impedit dolor perferendis vel nostrum laboriosam dignissimos laudantium,
+                corporis animi fugiat rerum,
+                blanditiis natus in recusandae dolores quae tenetur. Sint, laudantium.
+            </p>
+            <p data-modal="#modal-2">Open Modal 2</p>
+        </div>
+        <!--/ modal 1 group -->
+
+        <hr>
+
+        <!-- modal 2 group -->
+        <div data-modal="#modal-2">Open Modal 2</div>
+
+        <div id="modal-2" class="writingor--modal">
+            <h2>Modal 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, nesciunt quidem sunt illum quaerat blanditiis,
+                voluptate et ratione soluta neque repellat quisquam atque,
+                esse rem illo sed velit assumenda quasi!
+            </p>
+            <button data-modal="#modal-1">Open Modal 1</button>
+        </div>
+        <!--/ modal 2 group -->
+
+        <hr>
+    </main>
+
+    <!-- scripts -->
+    <script src="./assets/scripts/js/writingor-modal.js"></script>
+    <!--/ scripts -->
+</body>
+</html>
